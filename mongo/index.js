@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017';
  
 // Database Name
-const dbName = 'myDb';
+const dbName = 'mydb';
 
 // find posts
 const findPosts = function(db, callback) {
